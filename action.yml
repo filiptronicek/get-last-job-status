@@ -25,3 +25,4 @@ runs:
             
             console.log(`The last workflow run ${message}`);
             return message;
+        result-encoding: string
