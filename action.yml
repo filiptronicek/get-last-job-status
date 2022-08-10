@@ -14,7 +14,6 @@ runs:
   steps:
     - name: Get previous job's status
       uses: actions/github-script@v6
-      if: ${{ success() }}
       id: lastrun
       with:
         script: |
